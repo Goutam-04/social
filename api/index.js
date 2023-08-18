@@ -5,6 +5,7 @@ const morgan = require('morgan');
 const Connection = require('./database/db.js')
 const userRoute = require('./routes/Users.js')
 const authRoute = require('./routes/auth.js')
+const postRoute = require('./routes/post.js')
 
 const app=express();
 
