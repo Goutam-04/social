@@ -1,9 +1,8 @@
-import "./topbar.css"
+import "./navbar.css"
 import { Search, Person, Chat, Notifications } from "@mui/icons-material";
 
 
-
-export const Topbar = () => {
+const Topbar = () => {
   return (
     <div className="topbarContainer">
     <div className="topbarLeft">
@@ -46,3 +45,5 @@ export const Topbar = () => {
   </div>
   )
 }
+
+export default Topbar
