@@ -57,7 +57,42 @@ const Sidebar = () => {
       </ul>
       <button className="sidebarButton">Show More</button>
       <hr className="sidebarHr" />
-     
+     <ul className='sidebarFriendList'>
+        <li className='sidebarFriend'>
+          <img className='sidebarFriendImg' src='/assets/person/2.jpeg' />
+          <span className='sidebarFriendName'>Jane Doe</span>
+        </li>
+     </ul>
+     <ul className='sidebarFriendList'>
+        <li className='sidebarFriend'>
+          <img className='sidebarFriendImg' src='/assets/person/2.jpeg' />
+          <span className='sidebarFriendName'>Jane Doe</span>
+        </li>
+     </ul>
+     <ul className='sidebarFriendList'>
+        <li className='sidebarFriend'>
+          <img className='sidebarFriendImg' src='/assets/person/2.jpeg' />
+          <span className='sidebarFriendName'>Jane Doe</span>
+        </li>
+     </ul>
+     <ul className='sidebarFriendList'>
+        <li className='sidebarFriend'>
+          <img className='sidebarFriendImg' src='/assets/person/2.jpeg' />
+          <span className='sidebarFriendName'>Jane Doe</span>
+        </li>
+     </ul>
+     <ul className='sidebarFriendList'>
+        <li className='sidebarFriend'>
+          <img className='sidebarFriendImg' src='/assets/person/2.jpeg' />
+          <span className='sidebarFriendName'>Jane Doe</span>
+        </li>
+     </ul>
+     <ul className='sidebarFriendList'>.
+        <li className='sidebarFriend'>
+          <img className='sidebarFriendImg' src='/assets/person/2.jpeg' />
+          <span className='sidebarFriendName'>Jane Doe</span>
+        </li>
+     </ul>
     </div>
   </div>
   )
