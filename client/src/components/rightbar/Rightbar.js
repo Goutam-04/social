@@ -1,9 +1,8 @@
-import React from 'react'
-import './rightbar.css'
+import "./rightbar.css";
 import { Users } from "../../dummyData";
 import Online from "../online/Online";
 
-const Rightbar =({ profile })=> {
+export default function Rightbar({ profile }) {
   const HomeRightbar = () => {
     return (
       <>
@@ -104,4 +103,3 @@ const Rightbar =({ profile })=> {
     </div>
   );
 }
-export default Rightbar
